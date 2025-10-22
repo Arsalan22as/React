@@ -4,13 +4,13 @@ import Code from './code';
 
 
 function App() {
-  
+  const username = "code aur react"
 
   return (
     <>
       <Code/>
-      <h1>hello vite react</h1>
-      <p>this is a vite react app</p>
+      <h1>code aur react {username}</h1>
+      <p>test para</p>
     </>
   )
 }
