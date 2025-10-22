@@ -1,13 +1,17 @@
 
 
-
+import Code from './code';
 
 
 function App() {
   
 
   return (
-    <h1>Hello React with Vite!</h1>
+    <>
+      <Code/>
+      <h1>hello vite react</h1>
+      <p>this is a vite react app</p>
+    </>
   )
 }
 
