@@ -5,14 +5,18 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] =useState(10);
+  const [counter, setCounter] = useState(10);
 
   // let counter = 15
 
   const addValue = () => {
     // counter += 1
-    if (counter < 20)
-    setCounter(counter + 1);
+    // if (counter < 20)
+    // setCounter(counter + 1);  these code are for project, below ones are for interview logic
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
 
   }
 
